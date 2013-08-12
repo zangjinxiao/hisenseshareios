@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4922734817B8BCDE00CC05FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F617B659E4003C8D29 /* UIKit.framework */; };
+		4922734917B8BCDE00CC05FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F817B659E4003C8D29 /* Foundation.framework */; };
+		4922734A17B8BCDE00CC05FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730FA17B659E4003C8D29 /* CoreGraphics.framework */; };
+		4922735017B8BCDE00CC05FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4922734E17B8BCDE00CC05FC /* InfoPlist.strings */; };
+		4922735217B8BCDE00CC05FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922735117B8BCDE00CC05FC /* main.m */; };
+		4922735617B8BCDE00CC05FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922735517B8BCDE00CC05FC /* AppDelegate.m */; };
+		4922735817B8BCDE00CC05FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922735717B8BCDE00CC05FC /* Default.png */; };
+		4922735A17B8BCDE00CC05FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922735917B8BCDE00CC05FC /* Default@2x.png */; };
+		4922735C17B8BCDE00CC05FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922735B17B8BCDE00CC05FC /* Default-568h@2x.png */; };
+		4922736517B8BCE700CC05FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F617B659E4003C8D29 /* UIKit.framework */; };
+		4922736617B8BCE700CC05FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F817B659E4003C8D29 /* Foundation.framework */; };
+		4922736717B8BCE700CC05FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730FA17B659E4003C8D29 /* CoreGraphics.framework */; };
+		4922736D17B8BCE700CC05FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4922736B17B8BCE700CC05FC /* InfoPlist.strings */; };
+		4922736F17B8BCE700CC05FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922736E17B8BCE700CC05FC /* main.m */; };
+		4922737317B8BCE700CC05FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922737217B8BCE700CC05FC /* AppDelegate.m */; };
+		4922737517B8BCE700CC05FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922737417B8BCE700CC05FC /* Default.png */; };
+		4922737717B8BCE700CC05FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922737617B8BCE700CC05FC /* Default@2x.png */; };
+		4922737917B8BCE700CC05FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922737817B8BCE700CC05FC /* Default-568h@2x.png */; };
+		4922738217B8BCF900CC05FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F617B659E4003C8D29 /* UIKit.framework */; };
+		4922738317B8BCF900CC05FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F817B659E4003C8D29 /* Foundation.framework */; };
+		4922738417B8BCF900CC05FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730FA17B659E4003C8D29 /* CoreGraphics.framework */; };
+		4922738A17B8BCF900CC05FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4922738817B8BCF900CC05FC /* InfoPlist.strings */; };
+		4922738C17B8BCF900CC05FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922738B17B8BCF900CC05FC /* main.m */; };
+		4922739017B8BCF900CC05FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922738F17B8BCF900CC05FC /* AppDelegate.m */; };
+		4922739217B8BCF900CC05FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922739117B8BCF900CC05FC /* Default.png */; };
+		4922739417B8BCF900CC05FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922739317B8BCF900CC05FC /* Default@2x.png */; };
+		4922739617B8BCF900CC05FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4922739517B8BCF900CC05FC /* Default-568h@2x.png */; };
+		4922739A17B8BD9D00CC05FC /* AppLists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B094E817B87F53007AE0F9 /* AppLists.plist */; };
+		4922739B17B8BD9D00CC05FC /* pptv.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CB17B875B8007AE0F9 /* pptv.png */; };
+		4922739C17B8BD9D00CC05FC /* title背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CD17B875B8007AE0F9 /* title背景.png */; };
+		4922739D17B8BD9D00CC05FC /* 二级分类背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CE17B875B8007AE0F9 /* 二级分类背景.png */; };
+		4922739E17B8BD9D00CC05FC /* 乐视.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CF17B875B8007AE0F9 /* 乐视.png */; };
+		4922739F17B8BD9D00CC05FC /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D017B875B8007AE0F9 /* 视频.png */; };
+		492273A017B8BD9D00CC05FC /* 搜狐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D117B875B8007AE0F9 /* 搜狐.png */; };
+		492273A117B8BD9D00CC05FC /* 随心控.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D217B875B8007AE0F9 /* 随心控.png */; };
+		492273A217B8BD9D00CC05FC /* 腾讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D317B875B8007AE0F9 /* 腾讯.png */; };
+		492273A317B8BD9D00CC05FC /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D417B875B8007AE0F9 /* 图片.png */; };
+		492273A417B8BD9D00CC05FC /* 遥控器.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D517B875B8007AE0F9 /* 遥控器.png */; };
+		492273A517B8BD9D00CC05FC /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D617B875B8007AE0F9 /* 音乐.png */; };
+		492273A617B8BD9D00CC05FC /* 语音.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D717B875B8007AE0F9 /* 语音.png */; };
+		492273A717B8BDB200CC05FC /* HXAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */; };
+		492273A817B8BDB200CC05FC /* HXAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C917B8757A007AE0F9 /* HXAppManager.m */; };
+		492273A917B8BDB200CC05FC /* HXSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311417B65B8C003C8D29 /* HXSlideButton.m */; };
+		492273AA17B8BDB200CC05FC /* HXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311617B65B8C003C8D29 /* HXTools.m */; };
+		492273AB17B8BDB200CC05FC /* HXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7310617B659E4003C8D29 /* HXAppDelegate.m */; };
+		492273AC17B8BDB200CC05FC /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */; };
+		492273AD17B8BDB200CC05FC /* HXAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C617B87555007AE0F9 /* HXAppViewController.m */; };
+		492273AE17B8BDB200CC05FC /* HXScaleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */; };
+		492273AF17B8BDC300CC05FC /* HXAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */; };
+		492273B017B8BDC300CC05FC /* HXAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C917B8757A007AE0F9 /* HXAppManager.m */; };
+		492273B117B8BDC300CC05FC /* HXSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311417B65B8C003C8D29 /* HXSlideButton.m */; };
+		492273B217B8BDC300CC05FC /* HXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311617B65B8C003C8D29 /* HXTools.m */; };
+		492273B317B8BDC300CC05FC /* HXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7310617B659E4003C8D29 /* HXAppDelegate.m */; };
+		492273B417B8BDC300CC05FC /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */; };
+		492273B517B8BDC300CC05FC /* HXAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C617B87555007AE0F9 /* HXAppViewController.m */; };
+		492273B617B8BDC300CC05FC /* HXScaleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */; };
+		492273B717B8BDD000CC05FC /* HXAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */; };
+		492273B817B8BDD000CC05FC /* HXAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C917B8757A007AE0F9 /* HXAppManager.m */; };
+		492273B917B8BDD000CC05FC /* HXSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311417B65B8C003C8D29 /* HXSlideButton.m */; };
+		492273BA17B8BDD000CC05FC /* HXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311617B65B8C003C8D29 /* HXTools.m */; };
+		492273BB17B8BDD000CC05FC /* HXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7310617B659E4003C8D29 /* HXAppDelegate.m */; };
+		492273BC17B8BDD000CC05FC /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */; };
+		492273BD17B8BDD000CC05FC /* HXAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C617B87555007AE0F9 /* HXAppViewController.m */; };
+		492273BE17B8BDD000CC05FC /* HXScaleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */; };
+		492273BF17B8BDDF00CC05FC /* pptv.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CB17B875B8007AE0F9 /* pptv.png */; };
+		492273C017B8BDDF00CC05FC /* title背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CD17B875B8007AE0F9 /* title背景.png */; };
+		492273C117B8BDDF00CC05FC /* 二级分类背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CE17B875B8007AE0F9 /* 二级分类背景.png */; };
+		492273C217B8BDDF00CC05FC /* 乐视.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CF17B875B8007AE0F9 /* 乐视.png */; };
+		492273C317B8BDDF00CC05FC /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D017B875B8007AE0F9 /* 视频.png */; };
+		492273C417B8BDDF00CC05FC /* 搜狐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D117B875B8007AE0F9 /* 搜狐.png */; };
+		492273C517B8BDDF00CC05FC /* 随心控.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D217B875B8007AE0F9 /* 随心控.png */; };
+		492273C617B8BDDF00CC05FC /* 腾讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D317B875B8007AE0F9 /* 腾讯.png */; };
+		492273C717B8BDDF00CC05FC /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D417B875B8007AE0F9 /* 图片.png */; };
+		492273C817B8BDDF00CC05FC /* 遥控器.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D517B875B8007AE0F9 /* 遥控器.png */; };
+		492273C917B8BDDF00CC05FC /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D617B875B8007AE0F9 /* 音乐.png */; };
+		492273CA17B8BDDF00CC05FC /* 语音.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D717B875B8007AE0F9 /* 语音.png */; };
+		492273CB17B8BDF400CC05FC /* pptv.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CB17B875B8007AE0F9 /* pptv.png */; };
+		492273CC17B8BDF400CC05FC /* title背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CD17B875B8007AE0F9 /* title背景.png */; };
+		492273CD17B8BDF400CC05FC /* 二级分类背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CE17B875B8007AE0F9 /* 二级分类背景.png */; };
+		492273CE17B8BDF400CC05FC /* 乐视.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CF17B875B8007AE0F9 /* 乐视.png */; };
+		492273CF17B8BDF400CC05FC /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D017B875B8007AE0F9 /* 视频.png */; };
+		492273D017B8BDF400CC05FC /* 搜狐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D117B875B8007AE0F9 /* 搜狐.png */; };
+		492273D117B8BDF400CC05FC /* 随心控.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D217B875B8007AE0F9 /* 随心控.png */; };
+		492273D217B8BDF400CC05FC /* 腾讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D317B875B8007AE0F9 /* 腾讯.png */; };
+		492273D317B8BDF400CC05FC /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D417B875B8007AE0F9 /* 图片.png */; };
+		492273D417B8BDF400CC05FC /* 遥控器.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D517B875B8007AE0F9 /* 遥控器.png */; };
+		492273D517B8BDF400CC05FC /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D617B875B8007AE0F9 /* 音乐.png */; };
+		492273D617B8BDF400CC05FC /* 语音.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D717B875B8007AE0F9 /* 语音.png */; };
+		492273D717B8BE0100CC05FC /* AppLists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B094E817B87F53007AE0F9 /* AppLists.plist */; };
+		492273D817B8BE0500CC05FC /* AppLists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B094E817B87F53007AE0F9 /* AppLists.plist */; };
+		492273D917B8BEDD00CC05FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C7311917B6640F003C8D29 /* QuartzCore.framework */; };
+		492273DA17B8BEE300CC05FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C7311917B6640F003C8D29 /* QuartzCore.framework */; };
+		492273DB17B8BEE900CC05FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C7311917B6640F003C8D29 /* QuartzCore.framework */; };
+		492273DE17B8BF7A00CC05FC /* HXShiPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492273DD17B8BF7A00CC05FC /* HXShiPinViewController.m */; };
+		492273E117B8BFFC00CC05FC /* HXYKQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492273E017B8BFFC00CC05FC /* HXYKQViewController.m */; };
+		492273E417B8C01900CC05FC /* HXYinYueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492273E317B8C01900CC05FC /* HXYinYueViewController.m */; };
+		49B094C717B87555007AE0F9 /* HXAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C617B87555007AE0F9 /* HXAppViewController.m */; };
+		49B094D817B875B8007AE0F9 /* pptv.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CB17B875B8007AE0F9 /* pptv.png */; };
+		49B094D917B875B8007AE0F9 /* title背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CD17B875B8007AE0F9 /* title背景.png */; };
+		49B094DA17B875B8007AE0F9 /* 二级分类背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CE17B875B8007AE0F9 /* 二级分类背景.png */; };
+		49B094DB17B875B8007AE0F9 /* 乐视.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094CF17B875B8007AE0F9 /* 乐视.png */; };
+		49B094DC17B875B8007AE0F9 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D017B875B8007AE0F9 /* 视频.png */; };
+		49B094DD17B875B8007AE0F9 /* 搜狐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D117B875B8007AE0F9 /* 搜狐.png */; };
+		49B094DE17B875B8007AE0F9 /* 随心控.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D217B875B8007AE0F9 /* 随心控.png */; };
+		49B094DF17B875B8007AE0F9 /* 腾讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D317B875B8007AE0F9 /* 腾讯.png */; };
+		49B094E017B875B8007AE0F9 /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D417B875B8007AE0F9 /* 图片.png */; };
+		49B094E117B875B8007AE0F9 /* 遥控器.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D517B875B8007AE0F9 /* 遥控器.png */; };
+		49B094E217B875B8007AE0F9 /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D617B875B8007AE0F9 /* 音乐.png */; };
+		49B094E317B875B8007AE0F9 /* 语音.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B094D717B875B8007AE0F9 /* 语音.png */; };
+		49B094E417B875C2007AE0F9 /* HXAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094C917B8757A007AE0F9 /* HXAppManager.m */; };
+		49B094E717B876B0007AE0F9 /* HXAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */; };
+		49B094E917B87F53007AE0F9 /* AppLists.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B094E817B87F53007AE0F9 /* AppLists.plist */; };
+		49B094ED17B888C2007AE0F9 /* HXScaleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */; };
+		49C730F717B659E4003C8D29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F617B659E4003C8D29 /* UIKit.framework */; };
+		49C730F917B659E4003C8D29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730F817B659E4003C8D29 /* Foundation.framework */; };
+		49C730FB17B659E4003C8D29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C730FA17B659E4003C8D29 /* CoreGraphics.framework */; };
+		49C7310117B659E4003C8D29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49C730FF17B659E4003C8D29 /* InfoPlist.strings */; };
+		49C7310317B659E4003C8D29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7310217B659E4003C8D29 /* main.m */; };
+		49C7310717B659E4003C8D29 /* HXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7310617B659E4003C8D29 /* HXAppDelegate.m */; };
+		49C7310917B659E4003C8D29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C7310817B659E4003C8D29 /* Default.png */; };
+		49C7310B17B659E4003C8D29 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C7310A17B659E4003C8D29 /* Default@2x.png */; };
+		49C7310D17B659E4003C8D29 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C7310C17B659E4003C8D29 /* Default-568h@2x.png */; };
+		49C7311717B65B8C003C8D29 /* HXSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311417B65B8C003C8D29 /* HXSlideButton.m */; };
+		49C7311817B65B8C003C8D29 /* HXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7311617B65B8C003C8D29 /* HXTools.m */; };
+		49C7311A17B6640F003C8D29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C7311917B6640F003C8D29 /* QuartzCore.framework */; };
+		49D3BF2017B7D1F200C2107C /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4922734717B8BCDE00CC05FC /* 海信音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "海信音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4922734D17B8BCDE00CC05FC /* 海信音乐-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "海信音乐-Info.plist"; sourceTree = "<group>"; };
+		4922734F17B8BCDE00CC05FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4922735117B8BCDE00CC05FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4922735317B8BCDE00CC05FC /* 海信音乐-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "海信音乐-Prefix.pch"; sourceTree = "<group>"; };
+		4922735417B8BCDE00CC05FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4922735517B8BCDE00CC05FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4922735717B8BCDE00CC05FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4922735917B8BCDE00CC05FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4922735B17B8BCDE00CC05FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4922736417B8BCE700CC05FC /* 海信视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "海信视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4922736A17B8BCE700CC05FC /* 海信视频-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "海信视频-Info.plist"; sourceTree = "<group>"; };
+		4922736C17B8BCE700CC05FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4922736E17B8BCE700CC05FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4922737017B8BCE700CC05FC /* 海信视频-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "海信视频-Prefix.pch"; sourceTree = "<group>"; };
+		4922737117B8BCE700CC05FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4922737217B8BCE700CC05FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4922737417B8BCE700CC05FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4922737617B8BCE700CC05FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4922737817B8BCE700CC05FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4922738117B8BCF900CC05FC /* 海信遥控器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "海信遥控器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4922738717B8BCF900CC05FC /* 海信遥控器-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "海信遥控器-Info.plist"; sourceTree = "<group>"; };
+		4922738917B8BCF900CC05FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4922738B17B8BCF900CC05FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4922738D17B8BCF900CC05FC /* 海信遥控器-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "海信遥控器-Prefix.pch"; sourceTree = "<group>"; };
+		4922738E17B8BCF900CC05FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4922738F17B8BCF900CC05FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4922739117B8BCF900CC05FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4922739317B8BCF900CC05FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4922739517B8BCF900CC05FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		492273DC17B8BF7A00CC05FC /* HXShiPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShiPinViewController.h; sourceTree = "<group>"; };
+		492273DD17B8BF7A00CC05FC /* HXShiPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShiPinViewController.m; sourceTree = "<group>"; };
+		492273DF17B8BFFC00CC05FC /* HXYKQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXYKQViewController.h; sourceTree = "<group>"; };
+		492273E017B8BFFC00CC05FC /* HXYKQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXYKQViewController.m; sourceTree = "<group>"; };
+		492273E217B8C01900CC05FC /* HXYinYueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXYinYueViewController.h; sourceTree = "<group>"; };
+		492273E317B8C01900CC05FC /* HXYinYueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXYinYueViewController.m; sourceTree = "<group>"; };
+		49B094C517B87555007AE0F9 /* HXAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAppViewController.h; sourceTree = "<group>"; };
+		49B094C617B87555007AE0F9 /* HXAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAppViewController.m; sourceTree = "<group>"; };
+		49B094C817B8757A007AE0F9 /* HXAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAppManager.h; sourceTree = "<group>"; };
+		49B094C917B8757A007AE0F9 /* HXAppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAppManager.m; sourceTree = "<group>"; };
+		49B094CB17B875B8007AE0F9 /* pptv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pptv.png; sourceTree = "<group>"; };
+		49B094CC17B875B8007AE0F9 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		49B094CD17B875B8007AE0F9 /* title背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title背景.png"; sourceTree = "<group>"; };
+		49B094CE17B875B8007AE0F9 /* 二级分类背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "二级分类背景.png"; sourceTree = "<group>"; };
+		49B094CF17B875B8007AE0F9 /* 乐视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乐视.png"; sourceTree = "<group>"; };
+		49B094D017B875B8007AE0F9 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		49B094D117B875B8007AE0F9 /* 搜狐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜狐.png"; sourceTree = "<group>"; };
+		49B094D217B875B8007AE0F9 /* 随心控.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "随心控.png"; sourceTree = "<group>"; };
+		49B094D317B875B8007AE0F9 /* 腾讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "腾讯.png"; sourceTree = "<group>"; };
+		49B094D417B875B8007AE0F9 /* 图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片.png"; sourceTree = "<group>"; };
+		49B094D517B875B8007AE0F9 /* 遥控器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遥控器.png"; sourceTree = "<group>"; };
+		49B094D617B875B8007AE0F9 /* 音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐.png"; sourceTree = "<group>"; };
+		49B094D717B875B8007AE0F9 /* 语音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音.png"; sourceTree = "<group>"; };
+		49B094E517B876AB007AE0F9 /* HXAppTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAppTableViewCell.h; sourceTree = "<group>"; };
+		49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAppTableViewCell.m; sourceTree = "<group>"; };
+		49B094E817B87F53007AE0F9 /* AppLists.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppLists.plist; sourceTree = "<group>"; };
+		49B094EA17B8847B007AE0F9 /* HXDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXDefaults.h; sourceTree = "<group>"; };
+		49B094EB17B888C2007AE0F9 /* HXScaleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXScaleWindow.h; sourceTree = "<group>"; };
+		49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXScaleWindow.m; sourceTree = "<group>"; };
+		49B0954E17B8BC65007AE0F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49C730F317B659E4003C8D29 /* HXSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C730F617B659E4003C8D29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49C730F817B659E4003C8D29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49C730FA17B659E4003C8D29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49C730FE17B659E4003C8D29 /* HXSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HXSDK-Info.plist"; sourceTree = "<group>"; };
+		49C7310017B659E4003C8D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49C7310217B659E4003C8D29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49C7310417B659E4003C8D29 /* HXSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXSDK-Prefix.pch"; sourceTree = "<group>"; };
+		49C7310517B659E4003C8D29 /* HXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAppDelegate.h; sourceTree = "<group>"; };
+		49C7310617B659E4003C8D29 /* HXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAppDelegate.m; sourceTree = "<group>"; };
+		49C7310817B659E4003C8D29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49C7310A17B659E4003C8D29 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49C7310C17B659E4003C8D29 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49C7311317B65B8C003C8D29 /* HXSlideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSlideButton.h; sourceTree = "<group>"; };
+		49C7311417B65B8C003C8D29 /* HXSlideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSlideButton.m; sourceTree = "<group>"; };
+		49C7311517B65B8C003C8D29 /* HXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTools.h; sourceTree = "<group>"; };
+		49C7311617B65B8C003C8D29 /* HXTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTools.m; sourceTree = "<group>"; };
+		49C7311917B6640F003C8D29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49D3BF1E17B7D1F200C2107C /* HXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXNavigationController.h; sourceTree = "<group>"; };
+		49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4922734417B8BCDE00CC05FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273D917B8BEDD00CC05FC /* QuartzCore.framework in Frameworks */,
+				4922734817B8BCDE00CC05FC /* UIKit.framework in Frameworks */,
+				4922734917B8BCDE00CC05FC /* Foundation.framework in Frameworks */,
+				4922734A17B8BCDE00CC05FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922736117B8BCE700CC05FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273DA17B8BEE300CC05FC /* QuartzCore.framework in Frameworks */,
+				4922736517B8BCE700CC05FC /* UIKit.framework in Frameworks */,
+				4922736617B8BCE700CC05FC /* Foundation.framework in Frameworks */,
+				4922736717B8BCE700CC05FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922737E17B8BCF900CC05FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273DB17B8BEE900CC05FC /* QuartzCore.framework in Frameworks */,
+				4922738217B8BCF900CC05FC /* UIKit.framework in Frameworks */,
+				4922738317B8BCF900CC05FC /* Foundation.framework in Frameworks */,
+				4922738417B8BCF900CC05FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C730F017B659E4003C8D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C7311A17B6640F003C8D29 /* QuartzCore.framework in Frameworks */,
+				49C730F717B659E4003C8D29 /* UIKit.framework in Frameworks */,
+				49C730F917B659E4003C8D29 /* Foundation.framework in Frameworks */,
+				49C730FB17B659E4003C8D29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4922734B17B8BCDE00CC05FC /* 海信音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				4922735417B8BCDE00CC05FC /* AppDelegate.h */,
+				4922735517B8BCDE00CC05FC /* AppDelegate.m */,
+				4922734C17B8BCDE00CC05FC /* Supporting Files */,
+				492273E217B8C01900CC05FC /* HXYinYueViewController.h */,
+				492273E317B8C01900CC05FC /* HXYinYueViewController.m */,
+			);
+			path = "海信音乐";
+			sourceTree = "<group>";
+		};
+		4922734C17B8BCDE00CC05FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4922734D17B8BCDE00CC05FC /* 海信音乐-Info.plist */,
+				4922734E17B8BCDE00CC05FC /* InfoPlist.strings */,
+				4922735117B8BCDE00CC05FC /* main.m */,
+				4922735317B8BCDE00CC05FC /* 海信音乐-Prefix.pch */,
+				4922735717B8BCDE00CC05FC /* Default.png */,
+				4922735917B8BCDE00CC05FC /* Default@2x.png */,
+				4922735B17B8BCDE00CC05FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4922736817B8BCE700CC05FC /* 海信视频 */ = {
+			isa = PBXGroup;
+			children = (
+				4922737117B8BCE700CC05FC /* AppDelegate.h */,
+				4922737217B8BCE700CC05FC /* AppDelegate.m */,
+				4922736917B8BCE700CC05FC /* Supporting Files */,
+				492273DC17B8BF7A00CC05FC /* HXShiPinViewController.h */,
+				492273DD17B8BF7A00CC05FC /* HXShiPinViewController.m */,
+			);
+			path = "海信视频";
+			sourceTree = "<group>";
+		};
+		4922736917B8BCE700CC05FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4922736A17B8BCE700CC05FC /* 海信视频-Info.plist */,
+				4922736B17B8BCE700CC05FC /* InfoPlist.strings */,
+				4922736E17B8BCE700CC05FC /* main.m */,
+				4922737017B8BCE700CC05FC /* 海信视频-Prefix.pch */,
+				4922737417B8BCE700CC05FC /* Default.png */,
+				4922737617B8BCE700CC05FC /* Default@2x.png */,
+				4922737817B8BCE700CC05FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4922738517B8BCF900CC05FC /* 海信遥控器 */ = {
+			isa = PBXGroup;
+			children = (
+				4922738E17B8BCF900CC05FC /* AppDelegate.h */,
+				4922738F17B8BCF900CC05FC /* AppDelegate.m */,
+				4922738617B8BCF900CC05FC /* Supporting Files */,
+				492273DF17B8BFFC00CC05FC /* HXYKQViewController.h */,
+				492273E017B8BFFC00CC05FC /* HXYKQViewController.m */,
+			);
+			path = "海信遥控器";
+			sourceTree = "<group>";
+		};
+		4922738617B8BCF900CC05FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4922738717B8BCF900CC05FC /* 海信遥控器-Info.plist */,
+				4922738817B8BCF900CC05FC /* InfoPlist.strings */,
+				4922738B17B8BCF900CC05FC /* main.m */,
+				4922738D17B8BCF900CC05FC /* 海信遥控器-Prefix.pch */,
+				4922739117B8BCF900CC05FC /* Default.png */,
+				4922739317B8BCF900CC05FC /* Default@2x.png */,
+				4922739517B8BCF900CC05FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B094CA17B87591007AE0F9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				49B094CB17B875B8007AE0F9 /* pptv.png */,
+				49B094CC17B875B8007AE0F9 /* Singleton.h */,
+				49B094CD17B875B8007AE0F9 /* title背景.png */,
+				49B094CE17B875B8007AE0F9 /* 二级分类背景.png */,
+				49B094CF17B875B8007AE0F9 /* 乐视.png */,
+				49B094D017B875B8007AE0F9 /* 视频.png */,
+				49B094D117B875B8007AE0F9 /* 搜狐.png */,
+				49B094D217B875B8007AE0F9 /* 随心控.png */,
+				49B094D317B875B8007AE0F9 /* 腾讯.png */,
+				49B094D417B875B8007AE0F9 /* 图片.png */,
+				49B094D517B875B8007AE0F9 /* 遥控器.png */,
+				49B094D617B875B8007AE0F9 /* 音乐.png */,
+				49B094D717B875B8007AE0F9 /* 语音.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		49B094F117B8B301007AE0F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49B094E817B87F53007AE0F9 /* AppLists.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49C730EA17B659E4003C8D29 = {
+			isa = PBXGroup;
+			children = (
+				49C7311917B6640F003C8D29 /* QuartzCore.framework */,
+				49C730FC17B659E4003C8D29 /* HXSDK */,
+				4922734B17B8BCDE00CC05FC /* 海信音乐 */,
+				4922736817B8BCE700CC05FC /* 海信视频 */,
+				4922738517B8BCF900CC05FC /* 海信遥控器 */,
+				49C730F517B659E4003C8D29 /* Frameworks */,
+				49C730F417B659E4003C8D29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C730F417B659E4003C8D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C730F317B659E4003C8D29 /* HXSDK.app */,
+				4922734717B8BCDE00CC05FC /* 海信音乐.app */,
+				4922736417B8BCE700CC05FC /* 海信视频.app */,
+				4922738117B8BCF900CC05FC /* 海信遥控器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C730F517B659E4003C8D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C730F617B659E4003C8D29 /* UIKit.framework */,
+				49C730F817B659E4003C8D29 /* Foundation.framework */,
+				49C730FA17B659E4003C8D29 /* CoreGraphics.framework */,
+				49B0954E17B8BC65007AE0F9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49C730FC17B659E4003C8D29 /* HXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				49B094F117B8B301007AE0F9 /* Resources */,
+				49B094CA17B87591007AE0F9 /* UI */,
+				49B094E517B876AB007AE0F9 /* HXAppTableViewCell.h */,
+				49B094E617B876AB007AE0F9 /* HXAppTableViewCell.m */,
+				49B094C817B8757A007AE0F9 /* HXAppManager.h */,
+				49B094C917B8757A007AE0F9 /* HXAppManager.m */,
+				49C7311317B65B8C003C8D29 /* HXSlideButton.h */,
+				49C7311417B65B8C003C8D29 /* HXSlideButton.m */,
+				49C7311517B65B8C003C8D29 /* HXTools.h */,
+				49C7311617B65B8C003C8D29 /* HXTools.m */,
+				49C7310517B659E4003C8D29 /* HXAppDelegate.h */,
+				49C7310617B659E4003C8D29 /* HXAppDelegate.m */,
+				49D3BF1E17B7D1F200C2107C /* HXNavigationController.h */,
+				49D3BF1F17B7D1F200C2107C /* HXNavigationController.m */,
+				49B094C517B87555007AE0F9 /* HXAppViewController.h */,
+				49B094C617B87555007AE0F9 /* HXAppViewController.m */,
+				49B094EA17B8847B007AE0F9 /* HXDefaults.h */,
+				49B094EB17B888C2007AE0F9 /* HXScaleWindow.h */,
+				49B094EC17B888C2007AE0F9 /* HXScaleWindow.m */,
+				49C730FD17B659E4003C8D29 /* Supporting Files */,
+			);
+			path = HXSDK;
+			sourceTree = "<group>";
+		};
+		49C730FD17B659E4003C8D29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C730FE17B659E4003C8D29 /* HXSDK-Info.plist */,
+				49C730FF17B659E4003C8D29 /* InfoPlist.strings */,
+				49C7310217B659E4003C8D29 /* main.m */,
+				49C7310417B659E4003C8D29 /* HXSDK-Prefix.pch */,
+				49C7310817B659E4003C8D29 /* Default.png */,
+				49C7310A17B659E4003C8D29 /* Default@2x.png */,
+				49C7310C17B659E4003C8D29 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4922734617B8BCDE00CC05FC /* 海信音乐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4922735D17B8BCDE00CC05FC /* Build configuration list for PBXNativeTarget "海信音乐" */;
+			buildPhases = (
+				4922734317B8BCDE00CC05FC /* Sources */,
+				4922734417B8BCDE00CC05FC /* Frameworks */,
+				4922734517B8BCDE00CC05FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "海信音乐";
+			productName = "海信音乐";
+			productReference = 4922734717B8BCDE00CC05FC /* 海信音乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4922736317B8BCE700CC05FC /* 海信视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4922737A17B8BCE700CC05FC /* Build configuration list for PBXNativeTarget "海信视频" */;
+			buildPhases = (
+				4922736017B8BCE700CC05FC /* Sources */,
+				4922736117B8BCE700CC05FC /* Frameworks */,
+				4922736217B8BCE700CC05FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "海信视频";
+			productName = "海信视频";
+			productReference = 4922736417B8BCE700CC05FC /* 海信视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4922738017B8BCF900CC05FC /* 海信遥控器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4922739717B8BCF900CC05FC /* Build configuration list for PBXNativeTarget "海信遥控器" */;
+			buildPhases = (
+				4922737D17B8BCF900CC05FC /* Sources */,
+				4922737E17B8BCF900CC05FC /* Frameworks */,
+				4922737F17B8BCF900CC05FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "海信遥控器";
+			productName = "海信遥控器";
+			productReference = 4922738117B8BCF900CC05FC /* 海信遥控器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C730F217B659E4003C8D29 /* HXSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C7311017B659E4003C8D29 /* Build configuration list for PBXNativeTarget "HXSDK" */;
+			buildPhases = (
+				49C730EF17B659E4003C8D29 /* Sources */,
+				49C730F017B659E4003C8D29 /* Frameworks */,
+				49C730F117B659E4003C8D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXSDK;
+			productName = HXSDK;
+			productReference = 49C730F317B659E4003C8D29 /* HXSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C730EB17B659E4003C8D29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = jxZang;
+				TargetAttributes = {
+					49B0954C17B8BC65007AE0F9 = {
+						TestTargetID = 49C730F217B659E4003C8D29;
+					};
+				};
+			};
+			buildConfigurationList = 49C730EE17B659E4003C8D29 /* Build configuration list for PBXProject "HXSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49C730EA17B659E4003C8D29;
+			productRefGroup = 49C730F417B659E4003C8D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C730F217B659E4003C8D29 /* HXSDK */,
+				4922734617B8BCDE00CC05FC /* 海信音乐 */,
+				4922736317B8BCE700CC05FC /* 海信视频 */,
+				4922738017B8BCF900CC05FC /* 海信遥控器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4922734517B8BCDE00CC05FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4922739A17B8BD9D00CC05FC /* AppLists.plist in Resources */,
+				4922739B17B8BD9D00CC05FC /* pptv.png in Resources */,
+				4922739C17B8BD9D00CC05FC /* title背景.png in Resources */,
+				4922739D17B8BD9D00CC05FC /* 二级分类背景.png in Resources */,
+				4922739E17B8BD9D00CC05FC /* 乐视.png in Resources */,
+				4922739F17B8BD9D00CC05FC /* 视频.png in Resources */,
+				492273A017B8BD9D00CC05FC /* 搜狐.png in Resources */,
+				492273A117B8BD9D00CC05FC /* 随心控.png in Resources */,
+				492273A217B8BD9D00CC05FC /* 腾讯.png in Resources */,
+				492273A317B8BD9D00CC05FC /* 图片.png in Resources */,
+				492273A417B8BD9D00CC05FC /* 遥控器.png in Resources */,
+				492273A517B8BD9D00CC05FC /* 音乐.png in Resources */,
+				492273A617B8BD9D00CC05FC /* 语音.png in Resources */,
+				4922735017B8BCDE00CC05FC /* InfoPlist.strings in Resources */,
+				4922735817B8BCDE00CC05FC /* Default.png in Resources */,
+				4922735A17B8BCDE00CC05FC /* Default@2x.png in Resources */,
+				4922735C17B8BCDE00CC05FC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922736217B8BCE700CC05FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273D717B8BE0100CC05FC /* AppLists.plist in Resources */,
+				492273BF17B8BDDF00CC05FC /* pptv.png in Resources */,
+				492273C017B8BDDF00CC05FC /* title背景.png in Resources */,
+				492273C117B8BDDF00CC05FC /* 二级分类背景.png in Resources */,
+				492273C217B8BDDF00CC05FC /* 乐视.png in Resources */,
+				492273C317B8BDDF00CC05FC /* 视频.png in Resources */,
+				492273C417B8BDDF00CC05FC /* 搜狐.png in Resources */,
+				492273C517B8BDDF00CC05FC /* 随心控.png in Resources */,
+				492273C617B8BDDF00CC05FC /* 腾讯.png in Resources */,
+				492273C717B8BDDF00CC05FC /* 图片.png in Resources */,
+				492273C817B8BDDF00CC05FC /* 遥控器.png in Resources */,
+				492273C917B8BDDF00CC05FC /* 音乐.png in Resources */,
+				492273CA17B8BDDF00CC05FC /* 语音.png in Resources */,
+				4922736D17B8BCE700CC05FC /* InfoPlist.strings in Resources */,
+				4922737517B8BCE700CC05FC /* Default.png in Resources */,
+				4922737717B8BCE700CC05FC /* Default@2x.png in Resources */,
+				4922737917B8BCE700CC05FC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922737F17B8BCF900CC05FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273D817B8BE0500CC05FC /* AppLists.plist in Resources */,
+				492273CB17B8BDF400CC05FC /* pptv.png in Resources */,
+				492273CC17B8BDF400CC05FC /* title背景.png in Resources */,
+				492273CD17B8BDF400CC05FC /* 二级分类背景.png in Resources */,
+				492273CE17B8BDF400CC05FC /* 乐视.png in Resources */,
+				492273CF17B8BDF400CC05FC /* 视频.png in Resources */,
+				492273D017B8BDF400CC05FC /* 搜狐.png in Resources */,
+				492273D117B8BDF400CC05FC /* 随心控.png in Resources */,
+				492273D217B8BDF400CC05FC /* 腾讯.png in Resources */,
+				492273D317B8BDF400CC05FC /* 图片.png in Resources */,
+				492273D417B8BDF400CC05FC /* 遥控器.png in Resources */,
+				492273D517B8BDF400CC05FC /* 音乐.png in Resources */,
+				492273D617B8BDF400CC05FC /* 语音.png in Resources */,
+				4922738A17B8BCF900CC05FC /* InfoPlist.strings in Resources */,
+				4922739217B8BCF900CC05FC /* Default.png in Resources */,
+				4922739417B8BCF900CC05FC /* Default@2x.png in Resources */,
+				4922739617B8BCF900CC05FC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C730F117B659E4003C8D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B094E917B87F53007AE0F9 /* AppLists.plist in Resources */,
+				49B094E217B875B8007AE0F9 /* 音乐.png in Resources */,
+				49B094E017B875B8007AE0F9 /* 图片.png in Resources */,
+				49C7310117B659E4003C8D29 /* InfoPlist.strings in Resources */,
+				49B094DC17B875B8007AE0F9 /* 视频.png in Resources */,
+				49B094D917B875B8007AE0F9 /* title背景.png in Resources */,
+				49B094D817B875B8007AE0F9 /* pptv.png in Resources */,
+				49B094DE17B875B8007AE0F9 /* 随心控.png in Resources */,
+				49C7310917B659E4003C8D29 /* Default.png in Resources */,
+				49B094DD17B875B8007AE0F9 /* 搜狐.png in Resources */,
+				49B094E317B875B8007AE0F9 /* 语音.png in Resources */,
+				49C7310B17B659E4003C8D29 /* Default@2x.png in Resources */,
+				49C7310D17B659E4003C8D29 /* Default-568h@2x.png in Resources */,
+				49B094E117B875B8007AE0F9 /* 遥控器.png in Resources */,
+				49B094DA17B875B8007AE0F9 /* 二级分类背景.png in Resources */,
+				49B094DF17B875B8007AE0F9 /* 腾讯.png in Resources */,
+				49B094DB17B875B8007AE0F9 /* 乐视.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4922734317B8BCDE00CC05FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273A717B8BDB200CC05FC /* HXAppTableViewCell.m in Sources */,
+				492273A817B8BDB200CC05FC /* HXAppManager.m in Sources */,
+				492273A917B8BDB200CC05FC /* HXSlideButton.m in Sources */,
+				492273AA17B8BDB200CC05FC /* HXTools.m in Sources */,
+				492273AB17B8BDB200CC05FC /* HXAppDelegate.m in Sources */,
+				492273AC17B8BDB200CC05FC /* HXNavigationController.m in Sources */,
+				492273AD17B8BDB200CC05FC /* HXAppViewController.m in Sources */,
+				492273AE17B8BDB200CC05FC /* HXScaleWindow.m in Sources */,
+				4922735217B8BCDE00CC05FC /* main.m in Sources */,
+				4922735617B8BCDE00CC05FC /* AppDelegate.m in Sources */,
+				492273E417B8C01900CC05FC /* HXYinYueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922736017B8BCE700CC05FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273AF17B8BDC300CC05FC /* HXAppTableViewCell.m in Sources */,
+				492273B017B8BDC300CC05FC /* HXAppManager.m in Sources */,
+				492273B117B8BDC300CC05FC /* HXSlideButton.m in Sources */,
+				492273B217B8BDC300CC05FC /* HXTools.m in Sources */,
+				492273B317B8BDC300CC05FC /* HXAppDelegate.m in Sources */,
+				492273B417B8BDC300CC05FC /* HXNavigationController.m in Sources */,
+				492273B517B8BDC300CC05FC /* HXAppViewController.m in Sources */,
+				492273B617B8BDC300CC05FC /* HXScaleWindow.m in Sources */,
+				4922736F17B8BCE700CC05FC /* main.m in Sources */,
+				4922737317B8BCE700CC05FC /* AppDelegate.m in Sources */,
+				492273DE17B8BF7A00CC05FC /* HXShiPinViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4922737D17B8BCF900CC05FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492273B717B8BDD000CC05FC /* HXAppTableViewCell.m in Sources */,
+				492273B817B8BDD000CC05FC /* HXAppManager.m in Sources */,
+				492273B917B8BDD000CC05FC /* HXSlideButton.m in Sources */,
+				492273BA17B8BDD000CC05FC /* HXTools.m in Sources */,
+				492273BB17B8BDD000CC05FC /* HXAppDelegate.m in Sources */,
+				492273BC17B8BDD000CC05FC /* HXNavigationController.m in Sources */,
+				492273BD17B8BDD000CC05FC /* HXAppViewController.m in Sources */,
+				492273BE17B8BDD000CC05FC /* HXScaleWindow.m in Sources */,
+				4922738C17B8BCF900CC05FC /* main.m in Sources */,
+				4922739017B8BCF900CC05FC /* AppDelegate.m in Sources */,
+				492273E117B8BFFC00CC05FC /* HXYKQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C730EF17B659E4003C8D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C7310317B659E4003C8D29 /* main.m in Sources */,
+				49C7310717B659E4003C8D29 /* HXAppDelegate.m in Sources */,
+				49C7311717B65B8C003C8D29 /* HXSlideButton.m in Sources */,
+				49B094E717B876B0007AE0F9 /* HXAppTableViewCell.m in Sources */,
+				49B094ED17B888C2007AE0F9 /* HXScaleWindow.m in Sources */,
+				49C7311817B65B8C003C8D29 /* HXTools.m in Sources */,
+				49B094C717B87555007AE0F9 /* HXAppViewController.m in Sources */,
+				49B094E417B875C2007AE0F9 /* HXAppManager.m in Sources */,
+				49D3BF2017B7D1F200C2107C /* HXNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4922734E17B8BCDE00CC05FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4922734F17B8BCDE00CC05FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4922736B17B8BCE700CC05FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4922736C17B8BCE700CC05FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4922738817B8BCF900CC05FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4922738917B8BCF900CC05FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49C730FF17B659E4003C8D29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C7310017B659E4003C8D29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4922735E17B8BCDE00CC05FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信音乐/海信音乐-Prefix.pch";
+				INFOPLIST_FILE = "海信音乐/海信音乐-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4922735F17B8BCDE00CC05FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信音乐/海信音乐-Prefix.pch";
+				INFOPLIST_FILE = "海信音乐/海信音乐-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4922737B17B8BCE700CC05FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信视频/海信视频-Prefix.pch";
+				INFOPLIST_FILE = "海信视频/海信视频-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4922737C17B8BCE700CC05FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信视频/海信视频-Prefix.pch";
+				INFOPLIST_FILE = "海信视频/海信视频-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4922739817B8BCF900CC05FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信遥控器/海信遥控器-Prefix.pch";
+				INFOPLIST_FILE = "海信遥控器/海信遥控器-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4922739917B8BCF900CC05FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "海信遥控器/海信遥控器-Prefix.pch";
+				INFOPLIST_FILE = "海信遥控器/海信遥控器-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49C7310E17B659E4003C8D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49C7310F17B659E4003C8D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C7311117B659E4003C8D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXSDK/HXSDK-Prefix.pch";
+				INFOPLIST_FILE = "HXSDK/HXSDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49C7311217B659E4003C8D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXSDK/HXSDK-Prefix.pch";
+				INFOPLIST_FILE = "HXSDK/HXSDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4922735D17B8BCDE00CC05FC /* Build configuration list for PBXNativeTarget "海信音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4922735E17B8BCDE00CC05FC /* Debug */,
+				4922735F17B8BCDE00CC05FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4922737A17B8BCE700CC05FC /* Build configuration list for PBXNativeTarget "海信视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4922737B17B8BCE700CC05FC /* Debug */,
+				4922737C17B8BCE700CC05FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4922739717B8BCF900CC05FC /* Build configuration list for PBXNativeTarget "海信遥控器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4922739817B8BCF900CC05FC /* Debug */,
+				4922739917B8BCF900CC05FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49C730EE17B659E4003C8D29 /* Build configuration list for PBXProject "HXSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C7310E17B659E4003C8D29 /* Debug */,
+				49C7310F17B659E4003C8D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C7311017B659E4003C8D29 /* Build configuration list for PBXNativeTarget "HXSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C7311117B659E4003C8D29 /* Debug */,
+				49C7311217B659E4003C8D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C730EB17B659E4003C8D29 /* Project object */;
+}

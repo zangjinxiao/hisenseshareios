@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HXSDK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>海信视频.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>海信遥控器.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>海信音乐.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4922734617B8BCDE00CC05FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4922736317B8BCE700CC05FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4922738017B8BCF900CC05FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49B0953617B8BC65007AE0F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49B0954C17B8BC65007AE0F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49C730F217B659E4003C8D29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

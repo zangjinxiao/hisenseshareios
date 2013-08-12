@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxzhinengyaokongqi</string>
+		<key>APP_NAME</key>
+		<string>智能遥控器</string>
+		<key>ICON_PATH</key>
+		<string>遥控器</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxsuixinkong</string>
+		<key>APP_NAME</key>
+		<string>随心控</string>
+		<key>ICON_PATH</key>
+		<string>随心控</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxyinyue</string>
+		<key>APP_NAME</key>
+		<string>音乐</string>
+		<key>ICON_PATH</key>
+		<string>音乐</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxshipin</string>
+		<key>APP_NAME</key>
+		<string>视频</string>
+		<key>ICON_PATH</key>
+		<string>视频</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxtupian</string>
+		<key>APP_NAME</key>
+		<string>图片</string>
+		<key>ICON_PATH</key>
+		<string>图片</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxsouhushipin</string>
+		<key>APP_NAME</key>
+		<string>搜狐视频</string>
+		<key>ICON_PATH</key>
+		<string>搜狐</string>
+	</dict>
+	<dict>
+		<key>SCHEMA</key>
+		<string>hxleshishipin</string>
+		<key>APP_NAME</key>
+		<string>乐视视频</string>
+		<key>ICON_PATH</key>
+		<string>乐视</string>
+	</dict>
+</array>
+</plist>
